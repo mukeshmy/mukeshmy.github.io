@@ -15,14 +15,18 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    /* background: #FFD700; */
+    /* background: #FFC107; */
+    background: #ffff;
     padding: 1rem;
     z-index: 1000;
     text-align: center;
+    border-bottom: #FFC107 2px solid;
 }
 
 nav a {
-    color: white;
+    /* color: rgb(220, 202, 12); */
+    color: var(--primary);
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -33,26 +37,26 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    /* color: white; */
+    /* color: #FFC107; */
     font-size: 2rem;
     text-align: center;
     position: relative;
 }
 
 .home {
-    background: url('https://images.unsplash.com/photo-1503264116251-35a269479413') no-repeat center center/cover;
-    background-attachment: fixed;
+    background-color: #FFC107;
+} 
+
+.heading{
+    color: #FFC107;
 }
 
-.about {
-    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
-    background-attachment: fixed;
-}
+/* .about {
+} */
 
-.projects {
-    background: url('https://images.unsplash.com/photo-1531497865146-1f8f9e3c975e') no-repeat center center/cover;
-    background-attachment: fixed;
-}
+/* .projects {
+} */
 
 .contact {
     background: #111;
